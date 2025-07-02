@@ -16,7 +16,10 @@ export function PublicLayout({ children }: PublicLayoutProps) {
             Hub de Ferramentas
           </Link>
           
-          <nav className="hidden md:flex items-center space-x-6">
+            <nav className="hidden md:flex items-center space-x-6">
+            <Link to="/funcionalidades" className="text-muted-foreground hover:text-foreground transition-colors">
+              Funcionalidades
+            </Link>
             <Link to="/precos" className="text-muted-foreground hover:text-foreground transition-colors">
               Preços
             </Link>
@@ -51,8 +54,8 @@ export function PublicLayout({ children }: PublicLayoutProps) {
             <div>
               <h4 className="font-semibold mb-4">Produto</h4>
               <ul className="space-y-2 text-sm">
+                <li><Link to="/funcionalidades" className="text-muted-foreground hover:text-foreground">Funcionalidades</Link></li>
                 <li><Link to="/precos" className="text-muted-foreground hover:text-foreground">Preços</Link></li>
-                <li><Link to="#" className="text-muted-foreground hover:text-foreground">Funcionalidades</Link></li>
               </ul>
             </div>
 
@@ -67,8 +70,8 @@ export function PublicLayout({ children }: PublicLayoutProps) {
             <div>
               <h4 className="font-semibold mb-4">Suporte</h4>
               <ul className="space-y-2 text-sm">
-                <li><Link to="#" className="text-muted-foreground hover:text-foreground">Central de Ajuda</Link></li>
-                <li><Link to="#" className="text-muted-foreground hover:text-foreground">Contato</Link></li>
+                <li><Link to="/central-de-ajuda" className="text-muted-foreground hover:text-foreground">Central de Ajuda</Link></li>
+                <li><Link to="/contato" className="text-muted-foreground hover:text-foreground">Contato</Link></li>
               </ul>
             </div>
           </div>

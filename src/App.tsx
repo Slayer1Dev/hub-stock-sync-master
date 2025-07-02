@@ -14,6 +14,9 @@ import NotFound from "./pages/NotFound";
 // Public pages
 import Landing from "./pages/public/Landing";
 import Pricing from "./pages/public/Pricing";
+import Features from "./pages/public/Features";
+import Help from "./pages/public/Help";
+import Contact from "./pages/public/Contact";
 import TermsOfService from "./pages/public/TermsOfService";
 import PrivacyPolicy from "./pages/public/PrivacyPolicy";
 
@@ -37,6 +40,9 @@ const App = () => (
           {/* Public Routes */}
           <Route path="/" element={<Landing />} />
           <Route path="/precos" element={<Pricing />} />
+          <Route path="/funcionalidades" element={<Features />} />
+          <Route path="/central-de-ajuda" element={<Help />} />
+          <Route path="/contato" element={<Contact />} />
           <Route path="/termos-de-servico" element={<TermsOfService />} />
           <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
           
