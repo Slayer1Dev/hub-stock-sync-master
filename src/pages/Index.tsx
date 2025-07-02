@@ -5,8 +5,8 @@ const Index = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Redirect to login page as the default landing
-    navigate("/login");
+    // This is now a backup route, redirect to the main landing page
+    navigate("/");
   }, [navigate]);
 
   return (
