@@ -22,7 +22,7 @@ const Features = () => {
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
                 <div className="p-3 rounded-lg bg-primary/10 border border-primary/20">
-                  <Sync className="h-8 w-8 text-primary" />
+                  <RefreshCw className="h-8 w-8 text-primary" />
                 </div>
                 <h2 className="text-3xl font-bold">Estoque Unificado, Vendas sem Preocupação</h2>
               </div>
